@@ -1,7 +1,7 @@
 <h1>3 Projects</h1>
 
 <ul>
-  <li>Project A</li>
-  <li>Project B</li>
-  <li>Project C</li>
+  <% @projects.each do |project| %>
+    <li><%= project %></li>
+  <% end %>
 </ul>
