@@ -13,7 +13,7 @@ describe "Viewing an individual project" do
        expect(page).to have_text(project.name)
        expect(page).to have_text(project.description)
        expect(page).to have_text("$100.00")
-       expect(page).to have_text(project.pledging_ends_on)
+       expect(page).to have_text("1 day remaining")
        expect(page).to have_text(project.website)
    end
 
