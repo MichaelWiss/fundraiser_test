@@ -1,7 +1,37 @@
-# This file should contain all the record creation needed to seed the database with its default values.
-# The data can then be loaded with the rake db:seed (or created alongside the db with db:setup).
-#
-# Examples:
-#
-#   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
-#   Mayor.create(name: 'Emanuel', city: cities.first)
+Project.create!([
+	{
+     name: "Water Fund",
+     description: "Draught Relief",
+     target_pledge_amount: 300000,
+     website: "http://www.charitywater.org/",
+     pledging_ends_on: "2016-11-15",
+    },
+    {
+     name: "Education Fund",
+     description: "Funding for schools",
+     target_pledge_amount: 450000,
+     website: "http://www.aimhigh.org/",
+     pledging_ends_on: "2017-11-15",
+    },
+    {
+     name: "Food Fund",
+     description: "Food Relief",
+     target_pledge_amount: 400000,
+     website: "http://www.foodforthepoor.org/",
+     pledging_ends_on: "2015-12-15",
+    },
+    {
+     name: "Water Fund",
+     description: "Draught Relief",
+     target_pledge_amount: 300000,
+     website: "http://www.charitywater.org/",
+     pledging_ends_on: "2016-11-15",
+    },
+    {
+     name: "Water Fund",
+     description: "Draught Relief",
+     target_pledge_amount: 300000,
+     website: "http://www.charitywater.org/",
+     pledging_ends_on: "2016-11-15",
+    },
+])
