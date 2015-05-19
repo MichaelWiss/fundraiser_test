@@ -11,7 +11,7 @@ describe "Editing a project" do
     
     expect(current_path).to eq(edit_project_path(project))
         
-    expect(find_field('Title').value).to eq(project.title)
+    expect(find_field('Name').value).to eq(project.name)
   end
   
 end
