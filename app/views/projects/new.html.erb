@@ -9,15 +9,15 @@
   </p>
   <p>
     <%= f.label :target_pledge_amount %><br/>
-    <%= f.text_field :target_pledge_amount, size: 10 %>
+    <%= f.number_field :target_pledge_amount, size: 10 %>
   </p>
   <p>
     <%= f.label :website %><br/>
     <%= f.text_field :website %>
   </p>
   <p>
-    <%= f.label :pledging_ends_on %><br/>
-    <%= f.text_field :pledging_ends_on %>
+    <%= f.label :pledging_ends_on %></br>
+    <%= f.date_select :pledging_ends_on %>
   </p>
   <p>
     <%= f.submit %>
